@@ -57,7 +57,7 @@ export default class ItemDonateScreen extends Component{
         <MyHeader title="Donate Items" navigation ={this.props.navigation}/>
         <View style={{flex:1}}>
           {
-            this.state.requestedItemList.length === 0
+            this.state.requestedItemList.length ===  0
             ?(
               <View style={styles.subContainer}>
                 <Text style={{ fontSize: 20}}>List Of All Requested Items</Text>
